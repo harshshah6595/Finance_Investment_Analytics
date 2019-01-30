@@ -82,3 +82,7 @@ lm = LinearRegression(n_jobs=11)
 lm.fit(X_train,y_train)
 predictions = lm.predict(X_test)
 plt.scatter(y_test,predictions,s=20)
+
+
+
+
